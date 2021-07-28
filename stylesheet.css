@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #EAF6FD;
+}
+
+.container {
+    background-color: #fff;
+    height: 120px;
+    width: 100%;
+    box-shadow: 0px 4px 4px #D0DDDE;
+    float: left;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.header-right {
+    float: right; 
+    margin-top: -30px;
+    margin-right: 25px;
+}
+
+.header-right  a {
+    letter-spacing: 2px;
+    font-size: 24px;
+    color : #707380;
+    float: left;
+    padding-right: 30px;
+
+}
+
+.illust-container {
+    text-align: center;
+    margin: 0px 2.5%;
+    width: 95%;
+}
+
+.illust-logo {
+    padding-top: 40px;
+    margin: 40px 10px;
+}
+.illust-pic img{
+    margin: 30px 20px;
+    height: 50%;
+}
+
+.drawing {
+    text-align: center;
+    margin: 0px 2.5%;
+    width: 95%;
+}
+
+.drawing-logo {
+    padding-top: 40px;
+    margin: 40px 10px;
+}
+.drawing-pic img{
+    margin: 30px 20px;
+    height: 50%;
+}
+
+.about {
+    text-align: center;
+    width: 100%;
+    background-color: #FEFDFF;
+    height: 530px;
+    margin-top: 100px;
+}
+
+.about-container {
+    width: 80%;
+    margin: 0px 10%;
+    text-align: center;
+}
+
+.about-logo {
+    padding-top: 20px;
+    margin: 20px 10px;
+}
+
+.profile {
+    float: left；
+}
+
+.icon {
+    width: 50%;
+    float: left;
+}
+
+.prf-text {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.prf-text h1 {
+    color: #2B2C2F;
+    font-weight: lighter;
+}
+
+.prf-text h3 {
+    margin-top: 10px;
+    margin-right: 40px;
+    color: #61626B;
+    font-weight: lighter;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-logo {
+    padding-top: 20px;
+    margin: 20px 10px;
+}
+
+.contact-container {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.schedule {
+    text-align: left;
+    padding-bottom: 10px;
+    color: #2B2C2F;
+}
+
+.naiyou {
+    text-align: left;
+    padding-bottom: 10px;
+    color: #2B2C2F;
+}
+
+.renraku {
+    text-align: left;
+    padding-bottom: 10px;
+    color: #2B2C2F;
+}
+
+.tophe {
+    text-align: center;
+    width: 100%;
+    background-color: #FEFDFF;
+    height: 80px;
+    padding-top: 30px;
+}
+
+.tophe a {
+    color: #EE6F6F;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
