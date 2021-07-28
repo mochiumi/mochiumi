@@ -1,0 +1,24 @@
+/* タブレット向けレイアウト */
+
+@media (max-width: 1000px) {
+    .illust-pic img{
+        height: 50%;
+        max-width: 80%;
+    }
+
+    .yokonaga {
+        object-fit: contain;
+    }
+
+    .icon-img {
+        display: none;
+    }
+
+    .prf-text {
+        float: center;
+        width: 80%;
+        margin-top: -20px;
+        margin-left: 80px;
+    }
+
+}
