@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mochiumi Mochi</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="stylesheet.css">
+        <!-- jQuery.jsの読み込み -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<!-- スムーズスクロール部分の記述 -->
+<script>
+$(function(){
+   // #で始まるアンカーをクリックした場合に処理
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒
+      // アンカーの値取得
+      var href= $(this).attr("href");
+      // 移動先を取得
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      // 移動先を数値で取得
+      var position = target.offset().top;
+      // スムーススクロール
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="responsive.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <img class="logo" id="logo" src="C:\あざらし\image-test\img\MOCHIUMI MOCHI.png">
+                </div>
+                <div class="header-right">
+                    <a href="#pic">Pictures</a>
+                    <a href="#abt">About</a>
+                    <a href="#cnt">Contact</a>
+                </div>
+            </div>
+        </header>
+        <div class="illust-container">
+            <img class="illust-logo" src="C:\あざらし\image-test\img\Illust.png">
+            <div id="pic" class="illust-pic">
+                <img src="C:\あざらし\image-test\img\イラスト5.4[完成1].png">
+                <img src="C:\あざらし\image-test\img\イラスト41jg.png">
+                <img src="C:\あざらし\image-test\img\公募イラスト.png">
+                <img src="C:\あざらし\image-test\img\イラスト106.png">
+                <img class="yokonaga" src="C:\あざらし\image-test\img\イラスト3.2[完成].png">
+                <img src="C:\あざらし\image-test\img\差分イラスト115.png">
+                <img src="C:\あざらし\image-test\img\台紙115×110mm.png">
+                <img class="yokonaga" src="C:\あざらし\image-test\img\1111ssgbh.png">
+            </div>
+        </div>
+
+        <div class="drawing">
+            <img class="drawing-logo" src="C:\あざらし\image-test\img\Drawing.png">
+            <div class="Drawing-pic">
+                <img src="C:\あざらし\image-test\img\写真 2021-07-24 11 26 29.jpg">
+                <img src="C:\あざらし\image-test\img\写真 2021-07-24 11 33 21.jpg">
+                <img src="C:\あざらし\image-test\img\写真 2021-07-24 11 49 26.jpg">
+                <img src="C:\あざらし\image-test\img\写真 2021-07-24 12 20 18.png">
+            </div>
+        </div>
+
+        <div id="abt" class="about">
+            <div class="about-container">
+                <img class="about-logo" src="C:\あざらし\image-test\img\About.png">
+                <div class="profile">
+                    <div class="icon">
+                        <img class="icon-img" src="C:\あざらし\image-test\img\Ellipse 1.png">
+                    </div>
+                    <div class="prf-text">
+                        <h1>餅海もち : Mochiumi Moti</h1>
+                        <h3>2002年8月13日生まれ　東京都在住　イラストレーター</h3>
+                        <h3>ボーカロイド楽曲のイラストを中心に、アルバムジャケットやMVイラストを担当。</h3>
+                        <h3>live2dモデリングも勉強中。</h3>    
+                        <h3>等身イラストはもちろん、SDイラスト、キャラクターデザイン、TCGイラスト、live2dイラスト、MVイラスト、CDジャケット等幅広く募集しております。絵柄寄せもできますのでお気軽にご相談ください。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cnt" class="contact">
+           <img class="contact-logo" src="C:\あざらし\image-test\img\Contact.png">
+           <div class="contact-container">
+            <div class="schedule">
+                <h3>[スケジュールについて]</h3>
+                <p>現在、2021年9月から制作可能な案件がお請けしやすい状況です。</p>
+            </div>
+            <div class="naiyou">
+                <h3>[ご相談内容に関して]</h3>
+                <ul>
+                    <li>制作内容（サイズ、制作数、背景の有無）</li>
+                    <li>ご予算</li>
+                    <li>ご希望の納期</li>
+                    <li>実績公開の可否</li>
+                </ul>
+            </div>
+            <div class="renraku">
+                <h3>[連絡先]</h3>
+                <p>下記のメールアドレスまでお気軽にご相談ください。（返信目安：即日～3日）</p>
+                <p>mochiumimochi@gmail.com</p>
+            </div>
+           </div>
+        </div>
+
+        <div class="tophe">
+            <div>
+                <a href="#logo">Topに戻る</a>
+            </div>
+        </div>
+    </body>
+</html>
